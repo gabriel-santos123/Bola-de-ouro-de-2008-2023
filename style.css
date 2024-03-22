@@ -8,5 +8,5 @@ h2{
     font-size: 200%;
 }
 img{
-    font-size: medium;
+    -ms-ime-align: 30px;
 }
