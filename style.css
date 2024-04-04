@@ -12,3 +12,17 @@ img{
     height: 500px;
     align-items: center;
 }
+/* Tamanho de tela para computador */
+@media (min-width: 1025px) {
+    /* CSS para tela de computador */
+  }
+  
+  /* Tamanho de tela para tablet */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS para tela de tablet */
+  }
+  
+  /* Tamanho de tela para celular */
+  @media (max-width: 480px) {
+    /* CSS para tela de celular */
+  }
