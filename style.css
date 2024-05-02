@@ -26,3 +26,6 @@ img{
   @media (max-width: 480px) {
     /* CSS para tela de celular */
   }
+  h3{
+    text-align: center;
+  }
