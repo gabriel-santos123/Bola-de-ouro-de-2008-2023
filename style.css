@@ -1,31 +1,68 @@
-h1{
-    text-align: center;
-    font-size: 400%;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 20px;
 }
-h2{ 
-    text-align: center;
-    font-size: 200%;
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
 }
-img{
-    width: 900px;
-    height: 500px;
-    align-items: center;
+
+h1 {
+  font-size: 2em;
+  color: #4a4a4a;
 }
-/* Tamanho de tela para computador */
-@media (min-width: 1025px) {
-    /* CSS para tela de computador */
-  }
-  
-  /* Tamanho de tela para tablet */
-  @media (min-width: 768px) and (max-width: 1024px) {
-    /* CSS para tela de tablet */
-  }
-  
-  /* Tamanho de tela para celular */
-  @media (max-width: 480px) {
-    /* CSS para tela de celular */
-  }
-  h3{
-    text-align: center;
-  }
+
+section.winner {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+h2 {
+  color: #007bff;
+  font-size: 1.5em;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+p {
+  margin: 5px 0 15px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+hr {
+  border: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+h3 ul {
+  list-style: none;
+  padding: 0;
+}
+
+h3 ul li {
+  margin: 5px 0;
+}
+
+h3 a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+}
